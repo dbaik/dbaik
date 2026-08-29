@@ -11,11 +11,12 @@ Open to B2B and contract opportunities.
 [Portfolio](https://dbaik.github.io/) · [LinkedIn](https://www.linkedin.com/in/dbashkatoff/) · [Email](mailto:dbashkatoff@gmail.com)
 
 <p>
-  <img src="https://skillicons.dev/icons?i=wordpress,php,js,html,css,sass,figma,vite,react,git" alt="WordPress, PHP, JavaScript, HTML, CSS, Sass, Figma, Vite, React, Git">
+  <img src="https://skillicons.dev/icons?i=wordpress" height="48" alt="WordPress">
+  <img src="https://cdn.simpleicons.org/shopify/96BF48" height="48" alt="Shopify">
+  <img src="https://skillicons.dev/icons?i=php,js,html,css,sass,figma,vite,react,git" height="48" alt="PHP, JavaScript, HTML, CSS, Sass, Figma, Vite, React, Git">
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Shopify-96BF48?style=flat-square&logo=shopify&logoColor=white" alt="Shopify">
   <img src="https://img.shields.io/badge/Gutenberg-3858E9?style=flat-square" alt="Gutenberg">
   <img src="https://img.shields.io/badge/ACF-00C8E5?style=flat-square" alt="ACF">
   <img src="https://img.shields.io/badge/Liquid-96BF48?style=flat-square&logo=shopify&logoColor=white" alt="Liquid">
