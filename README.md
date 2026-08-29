@@ -12,7 +12,7 @@ Open to B2B and contract opportunities.
 
 <p>
   <img src="https://skillicons.dev/icons?i=wordpress" height="48" alt="WordPress">
-  <img src="https://cdn.simpleicons.org/shopify/96BF48" height="48" alt="Shopify">
+  <img src="shopify-skill.png" width="48" height="48" alt="Shopify">
   <img src="https://skillicons.dev/icons?i=php,js,html,css,sass,figma,vite,react,git" height="48" alt="PHP, JavaScript, HTML, CSS, Sass, Figma, Vite, React, Git">
 </p>
 
