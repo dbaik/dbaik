@@ -6,11 +6,34 @@
 
 Figma to production. Editable for teams. Maintainable for developers.
 
+Open to B2B and contract opportunities.
+
 [Portfolio](https://dbaik.github.io/) · [LinkedIn](https://www.linkedin.com/in/dbashkatoff/) · [Email](mailto:dbashkatoff@gmail.com)
+
+<p>
+  <img src="https://skillicons.dev/icons?i=wordpress,php,js,html,css,sass,figma,vite,react,git" alt="WordPress, PHP, JavaScript, HTML, CSS, Sass, Figma, Vite, React, Git">
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Shopify-96BF48?style=flat-square&logo=shopify&logoColor=white" alt="Shopify">
+  <img src="https://img.shields.io/badge/Gutenberg-3858E9?style=flat-square" alt="Gutenberg">
+  <img src="https://img.shields.io/badge/ACF-00C8E5?style=flat-square" alt="ACF">
+  <img src="https://img.shields.io/badge/Liquid-96BF48?style=flat-square&logo=shopify&logoColor=white" alt="Liquid">
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" alt="GSAP">
+</p>
 
 </div>
 
 ---
+
+## Featured work
+
+- **[WWF Canada](https://wwf.ca/)** — WordPress, Gutenberg, accessibility
+- **[MVP Visuals](https://mvpvisuals.com/)** — Shopify, Liquid, custom theme
+- **[The Energy Coalition](https://energycoalition.org/)** — WordPress, ACF, Polylang
+- **[11-nil](https://11-nil.com/)** — Shopify, Liquid, product variants
+
+Full archive: **[dbaik.github.io](https://dbaik.github.io/)**.
 
 ## What I do
 
@@ -22,8 +45,6 @@ Figma to production. Editable for teams. Maintainable for developers.
 - SEO and measurement: on-page and technical SEO, AI-search visibility, GA, GTM, Meta Pixel
 
 15+ years on production sites. I care that editors and merchants can change content without a developer, and that the codebase stays readable after launch.
-
-Project archive: **[dbaik.github.io](https://dbaik.github.io/)**.
 
 ## Stack
 
