@@ -1,0 +1,56 @@
+name: PageSpeed badges
+
+on:
+  schedule:
+    # Mondays 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pagespeed-badges
+  cancel-in-progress: true
+
+jobs:
+  pagespeed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Lighthouse
+        run: npm install --no-save lighthouse@12
+
+      - name: Audit portfolio (mobile)
+        run: |
+          npx lighthouse "https://dbaik.github.io/" \
+            --only-categories=performance,seo \
+            --form-factor=mobile \
+            --screenEmulation.mobile \
+            --output=json \
+            --output-path=./lighthouse-mobile.json \
+            --chrome-flags="--headless --no-sandbox --disable-dev-shm-usage" \
+            --quiet
+
+      - name: Generate SVG
+        run: node scripts/generate-pagespeed-svg.mjs --input ./lighthouse-mobile.json --output ./pagespeed.svg --label dbaik.github.io
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pagespeed.svg
+          if git diff --staged --quiet; then
+            echo "No badge changes"
+            exit 0
+          fi
+          git commit -m "Update PageSpeed badges for dbaik.github.io"
+          git push
