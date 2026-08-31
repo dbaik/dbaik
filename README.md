@@ -36,6 +36,16 @@ Open to B2B and contract opportunities.
 
 Full archive: **[dbaik.github.io](https://dbaik.github.io/)**.
 
+## Portfolio PageSpeed
+
+<p align="center">
+  <a href="https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdbaik.github.io%2F">
+    <img src="pagespeed.svg" width="260" height="140" alt="PageSpeed Insights for dbaik.github.io — Performance and SEO">
+  </a>
+</p>
+
+Mobile Lighthouse scores for **[dbaik.github.io](https://dbaik.github.io/)**. Updated weekly by GitHub Actions.
+
 ## What I do
 
 - Ship production websites from Figma: custom WordPress themes and Shopify storefronts
