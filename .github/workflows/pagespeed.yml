@@ -53,4 +53,5 @@ jobs:
             exit 0
           fi
           git commit -m "Update PageSpeed badges for dbaik.github.io"
+          git pull --rebase origin main
           git push
